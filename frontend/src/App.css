@@ -1,0 +1,17 @@
+input {
+  @apply w-full block mb-[5px] py-[5px] px-[7px] bg-[#fff] outline-none border-[2px] border-[#ddd] rounded-[5px];
+}
+button {
+  @apply w-full block bg-[#555] border-0 text-[#fff] rounded-[5px] py-[7px] cursor-pointer;
+}
+
+.content p {
+  @apply leading-[1.6rem] my-[15px];
+}
+
+a {
+  @apply font-[500];
+}
+a:hover {
+  @apply transition-all text-[#d63e55] duration-200;
+}
