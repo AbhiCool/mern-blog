@@ -1,6 +1,7 @@
 import EditPost from "./pages/EditPost";
 
-export const serverPath = "http://localhost:4000/";
+export const serverPath =
+  process.env.REACT_APP_API_URL || "http://localhost:4000/";
 export const serverLinks = {
   login: serverPath + "login",
   register: serverPath + "register",
